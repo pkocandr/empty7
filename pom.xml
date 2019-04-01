@@ -4,9 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <repo.id>tralala</repo.id>
+        <repo.url>http://nonsense.url.redhat.com/maven2/</repo.url>
+    </properties>
+
     <groupId>com.github.michalszynkiewicz.test</groupId>
     <artifactId>empty</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
+    <repositories>
+        <repository>
+            <id>${repo.id}</id>
+            <name>${repo.id}</name>
+            <url>${repo.url}</url>
+        </repository>
+    </repositories>
 </project>
