@@ -5,8 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.michalszynkiewicz.test</groupId>
-    <artifactId>empty</artifactId>
+    <artifactId>empty-dep</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.github.michalszynkiewicz.test</groupId>
+            <artifactId>empty</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+    </dependencies>
 
 </project>
