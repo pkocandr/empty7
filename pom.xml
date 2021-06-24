@@ -21,7 +21,7 @@
 		<repository>
 			<id>tc29-repo</id>
 			<name>tc29 GitHub Repository</name>
-			<url>http://github.com/project-ncl/test-repository/tree/TC29/tc29-repo/</url>
+			<url>http://github.com/project-ncl/test-repository/raw/TC29/tc29-repo/</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>never</updatePolicy>
