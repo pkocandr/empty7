@@ -19,9 +19,9 @@
     
 	<repositories>
 		<repository>
-			<id>dev138-repo</id>
-			<name>dev138 Repository</name>
-			<url>http://dev138.mw.lab.eng.bos.redhat.com/tmp/pkocandr/test-repo/</url>
+			<id>tc29-repo</id>
+			<name>tc29 GitHub Repository</name>
+			<url>http://github.com/project-ncl/test-repository/raw/TC29/tc29-repo/</url>
 			<releases>
 				<enabled>true</enabled>
 				<updatePolicy>never</updatePolicy>
