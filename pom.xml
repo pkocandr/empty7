@@ -8,5 +8,12 @@
     <artifactId>empty</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>extra</id>
+            <name>Extra Repository</name>
+            <url>https://extra.repository.com/maven2</url>
+        </repository>
+    </repositories>
 
 </project>
